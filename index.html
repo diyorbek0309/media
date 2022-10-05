@@ -1,0 +1,1553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from mediakom.uz/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Jun 2022 04:40:32 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="" />
+    <meta name="author" content="coder.uz" />
+    <meta name="robots" content="" />
+    <meta name="description" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="csrf_token_name" content="07a5b615f86fa62d6a55016c88d45a9c" class="csrf">
+    <script src='../www.google.com/recaptcha/api.js'></script>
+    <!-- FAVICONS ICON -->
+    <link rel="icon" href="assets/images/icon/icon.jpg" type="image/x-icon" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/icon/icon.jpg">
+
+    <title>Media Bolajon</title>
+
+    <!-- MOBILE SPECIFIC -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/plugins.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/templete.css">
+    <link class="skin" rel="stylesheet" type="text/css" href="assets/css/skin/skin-4.css">
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- Google Font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap');
+		.grid-container {
+			display: grid;
+			grid-gap: 10px;
+			grid-template-rows: auto;
+			grid-template-columns: auto;
+			grid-template-areas: 
+			"grid-item-1 grid-item-3 grid-item-5 grid-item-5"
+			"grid-item-2 grid-item-2 grid-item-4 grid-item-4";
+		}
+		.grid-item img {
+			height: 100%;
+		}
+		.grid-item-1 {
+			grid-area: grid-item-1;
+		}
+		.grid-item-2 {
+			grid-area: grid-item-2;
+		}
+		.grid-item-3 {
+			grid-area: grid-item-3;
+		}
+		.grid-item-4 {
+			grid-area: grid-item-4;
+		}
+		.grid-item-5 {
+			grid-area: grid-item-5;
+		}
+
+		.movingarrow {
+			animation-name: movingarrow;
+			animation-iteration-count: infinite;
+			animation-duration: 2s;
+			animation-timing-function: linear;
+		}
+
+		@keyframes movingarrow {
+			0% {
+				transform: translateY(0);
+			} 50% {
+				transform: translateY(50%);
+			} 100% {
+				transform: translateY(0);
+			}
+		}
+
+		.carousel {
+  background: black;
+}
+
+.carousel-cell {
+  width: 70%;
+  height: 200px;
+  /* flex-box, center image in cell */
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+
+.carousel-cell img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  /* dim unselected */
+  opacity: 0.7;
+  -webkit-transform: scale(0.85);
+          transform: scale(0.85);
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
+          transition: opacity 0.3s, transform 0.3s, filter 0.3s;
+}
+
+/* brighten selected image */
+.carousel-cell.is-selected img {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-filter: none;
+          filter: none;
+}
+
+
+@media screen and ( min-width: 768px ) {
+  .carousel-cell {
+    height: 400px;
+  }
+
+}
+
+@media screen and ( min-width: 960px ) {
+  .carousel-cell {
+    width: 60%;
+  }
+}
+
+/* buttons, no circle */
+.flickity-prev-next-button {
+  width: 60px;
+  height: 60px;
+  background: transparent;
+  opacity: 0.6;
+}
+.flickity-prev-next-button:hover {
+  background: transparent;
+  opacity: 1;
+}
+/* arrow color */
+.flickity-prev-next-button .arrow {
+  fill: #888888;
+}
+.flickity-prev-next-button.no-svg {
+  color: #888888;
+}
+/* closer to edge */
+.flickity-prev-next-button.previous { left: 0; }
+.flickity-prev-next-button.next { right: 0; }
+/* hide disabled button */
+.flickity-prev-next-button:disabled {
+  display: none;
+}
+
+
+.media-discipline {
+	padding: 2px 10px;
+	width: 300px;
+}
+
+.media-gird {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+    </style>
+
+    <!-- REVOLUTION SLIDER CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/plugins/revolution/revolution/css/revolution.min.css">
+</head>
+<body id="bg">
+	<div id="loading-area"></div>
+<div class="page-wraper">
+    <!-- header -->
+	
+    <header class="site-header mo-left header">
+        <!-- main header -->
+        <div class="sticky-header main-bar-wraper navbar-expand-lg">
+            <div class="main-bar clearfix border-top">
+                <div class="container clearfix">
+                    <!-- website logo -->
+                    <div class="logo-header mostion logo-dark">
+                        <a class="logo" style="cursor: pointer;" href="index.html" >
+							<h2 style="margin: 0" >Media</h2>
+							<h6 style="letter-spacing: 5px; margin: 0; padding: 0;"  >Bolajon</h6>
+						</a>
+                    </div>
+                    <!-- nav toggle button -->
+                    <button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <!-- extra nav -->
+               
+
+                    <!-- main nav -->
+                    <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
+                        <div class="logo-header d-md-block d-lg-none">
+                            <a href="index.html"><img src="assets/images/logo-4.png" alt=""></a>
+                        </div>
+                        <ul class="nav navbar-nav">
+                            <li><a href="#home">Bosh sahifa</a></li>
+                            <li> <a href="#about">Biz haqimizda</a></li>
+                            <li>
+								<a href="javascript:;">Media mahsulotlar<i class="fa fa-chevron-down"></i></a>
+								<ul class="sub-menu tab-content">
+									<li class="has-mega-menu"> <a href="#video">Video va audio mahsulotlar</a></li>
+                                    <li class="has-mega-menu"> <a href="#e-books">Taqdimotlar</a></li>
+                                    <li class="has-mega-menu"> <a href="#books">Elektron adabiyotlar</a></li>
+                                </ul>
+                            </li>
+							<li> <a href="#survey"> So'rovnoma</a></li>
+                            <li> <a href="#media">Mediatarbiya</a></li>
+
+                            <li class="has-mega-menu"> <a href="#contact">Bog'lanish</a></li>
+                                                        <div class="dlab-social-icon">
+                                <ul>
+                                    <li><a class="site-button circle fa fa-facebook" href="javascript:void(0);"></a></li>
+                                    <li><a class="site-button  circle fa fa-twitter" href="javascript:void(0);"></a></li>
+                                    <li><a class="site-button circle fa fa-linkedin" href="javascript:void(0);"></a></li>
+                                    <li><a class="site-button circle fa fa-instagram" href="javascript:void(0);"></a></li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main header END -->
+    </header>
+    <!-- header END -->
+
+	<!-- Slider -->
+	<div class="main-slider style-two default-banner" id="home">
+		<div class="tp-banner-container">
+			<div class="tp-banner" >
+				<div id="welcome_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="reveal-add-on36" data-source="gallery" style="background:#ffffff;padding:0px;">
+					<!-- START REVOLUTION SLIDER 5.4.7.2 fullscreen mode -->
+					<div id="welcome" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.7.2">
+						<ul>	
+							<!-- SLIDE  -->
+							<li data-index="rs-100" data-transition="slideoververtical" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+								<!-- MAIN IMAGE -->
+								<img src="assets/images/main-slider/dummy.hml"  alt=""  data-lazyload="./assets/images/main-bg.jpg" data-bgposition="center center" data-kenburns="on" data-duration="4000" data-ease="Power3.easeInOut" data-scalestart="150" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="4" class="rev-slidebg" data-no-retina>
+
+								<div class="tp-caption " 
+									id="slide-100-layer-3" 
+									data-x="['center','center','center','center']" data-hoffset="['-90','45','0','0']" 
+									data-y="['middle','middle','middle','middle']" data-voffset="['-90','-100','-80','-90']" 
+									data-fontsize="['30','25','25,'5']"
+									data-lineheight="['75','60','50','40']"
+									data-letterspacing="['2','2','2','2']"
+									data-width="['1000','900','768','360']"
+									data-height="none"
+									data-whitespace="['normal','nowrap','normal','normal']"
+									data-type="text" 
+									data-responsive_offset="off" 
+									data-responsive="off"
+									data-frames='[{"delay":900,"speed":2000,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:1.1;sY:1.1;skX:0;skY:0;opacity:0;","color":"#000000","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","color":"#000000","to":"opacity:0;","ease":"nothing"}]'
+									data-textAlign="['left','left','center','center']"
+									data-paddingtop="[0,0,0,0]"
+									data-paddingright="[10,10,0,0]"
+									data-paddingbottom="[0,0,0,0]"
+									data-paddingleft="[0,0,0,0]"
+									style="z-index: 6; min-width: 800px; max-width: 800px; font-weight: 600; white-space: normal; color: hsl(217, 71%, 53%); font-family:'Merriweather', serif; -webkit-text-stroke-width: 1px;
+									-webkit-text-stroke-color: #555;">           
+									Bolalarning intellektual, ijodiy <br> qobiliyatlarini rivojlantiruvchi va <br> mediasavodxonligini oshiruvchi <br> elektron platforma              
+								</div>
+			
+								<a class="tp-caption rev-btn tc-btnshadow btnhover14 tp-rs-menulink bg-primary" 
+									href="#contact" 			 
+									id="slide-100-layer-5" 
+									data-x="['center','center','center','center']" data-hoffset="['-515','-340','-85','-65']" 
+									data-y="['middle','middle','middle','middle']" data-voffset="['140','100','100','100']" 
+									data-lineheight="['18','18','18','18']"
+									data-whitespace="nowrap"
+									data-type="button" 
+									data-actions=''
+									data-responsive_offset="off" 
+									data-responsive="off"
+									data-frames='[{"delay":900,"speed":2000,"frame":"0","from":"x:-50px;z:0;rX:0;rY:0;rZ:0;sX:1.1;sY:1.1;skX:0;skY:0;opacity:0;fbr:100;","bgcolor":"#000000","to":"o:1;fbr:100;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","bgcolor":"#000000","to":"opacity:0;fbr:100;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;fbr:90%;","style":"c:rgba(255,255,255,1);"}]'
+									data-textAlign="['center','center','center','center']"
+									data-paddingtop="[15,15,15,10]"
+									data-paddingright="[30,30,30,20]"
+									data-paddingbottom="[15,15,15,10]"
+									data-paddingleft="[30,30,30,20]"
+									style="z-index: 8;letter-spacing: 2px; white-space: nowrap; font-size: 12px; font-weight: 600; color: rgba(255,255,255,1);  text-transform: uppercase; border-radius:4px; margin-top: -100px;"> Bog'lanish
+								</a>
+
+							</li>
+						</ul>
+						<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	
+					</div>
+				</div>
+				<!-- END REVOLUTION SLIDER -->     
+			</div>        
+		</div>        
+	</div>        
+	<!-- Slider END -->
+	<!-- Our Services -->
+	<div class="section-full content-inner bg-white" id="about">
+		<div class="container">
+			<div class="row teacher-about">
+				<div class="col-md-5">
+                    <img src="assets/images/PHOTO2.jpg" alt="">
+                    <h2 class="text-justify" style="font-size: 2.4rem;">“Media Bolajon elektron platformasi va uning samaradorligi”</h2>
+                
+                </div>
+				<div class="col-md-7">
+                    <p style="font-size: 28px;" class="text-justify">Media Bolajon elektron platformasi – “Maktabgacha yoshdagi bolalarning intellektual va ijodiy qobiliyatlarini mediata’lim texnologiyalari asosida rivojlantirish” dissertatsiyasi doirasida tayyorlangan.
+						Bizning asosiy maqsadimiz maktabgacha yoshdagi bolalarning intellektual va ijodiy qobiliyatlarini mediataʼlim texnologiyalaridan foydalanib rivojlantirish shu bilan birgalikda ularning mediasavodxonligini xam shakllantirish.</p>	
+				</div>
+			</div>
+			<div class="row"> 
+				<div class="col-lg-4 col-md-6 col-sm-12 m-b30 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s">
+					<div class="icon-bx-wraper bx-style-2 m-l40 p-a30 left bg-gray icon-bx-ho">
+						<div class="icon-bx-sm bg-primary m-b20"><span class="icon-cell"><img src="assets/images/icon/book.png" alt=""></span> </div>
+						<div class="icon-content p-l40">
+							<h5 class="dlab-tilte">TAQDIMOTLAR</h5>
+							<p>Har bir mavzuga oid taqdimotlar..</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 m-b30 wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.3s">
+					<div class="icon-bx-wraper bx-style-2 m-l40 p-a30 left bg-gray icon-bx-ho">
+						<div class="icon-bx-sm bg-primary m-b20"><a href="javascript:void(0);" class="icon-cell"><img src="assets/images/icon/graduate.png" alt=""></a> </div>
+						<div class="icon-content p-l40">
+							<h5 class="dlab-tilte">Elektron adabiyotlar</h5>
+							<p>Darslar uchun elektron adabiyotlar..</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 m-b30 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.3s">
+					<div class="icon-bx-wraper bx-style-2 m-l40 p-a30 left bg-gray icon-bx-ho">
+						<div class="icon-bx-sm bg-primary m-b20"><a href="javascript:void(0);" class="icon-cell"><img src="assets/images/icon/books.png" alt=""></a> </div>
+						<div class="icon-content p-l40">
+							<h5 class="dlab-tilte">TARBIYACHI HUJJATLARI</h5>
+							<p>Tarbiyachilar uchun kerakli hujjatlar..</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>    
+	<!-- Content -->
+    <div class="page-content bg-white" id="video">	
+        <!-- contact area -->
+        <div class="content-block">
+		
+			<div class="section-full content-inner bg-white">
+				<div class="container">
+					
+					<div class="section-head text-center">
+						<h2 class="title">Video va audio mahsulotlar</h2>
+					</div>
+
+					<p style="font-size: 28px; margin-top: 80px;">Jismoniy rivojlanish va sog‘lom turmush tarzining shakllanishi</p>
+
+					<div class="carousel js-flickity">
+						<div class="carousel-cell">
+						<iframe width="560" height="315" src="./assets/video/zaryatka1.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+						<iframe width="560" height="315" src="./assets/video/zaryatka2.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+						<iframe width="560" height="315" src="./assets/video/zaryatka3.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+						<iframe width="560" height="315" src="./assets/video/zaryatka4.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+						<iframe width="560" height="315" src="./assets/video/zaryatka5.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div>
+
+					<p style="font-size: 28px; margin-top: 80px;">Ijtimoiy-hissiy rivojlanish</p>
+
+					<div class="carousel js-flickity">
+						<div class="carousel-cell">
+						<iframe width="560" height="315" src="./assets/video/hissiyrivoj1.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+						<iframe width="560" height="315" src="./assets/video/hissiyrivoj2.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+						<iframe width="560" height="315" src="./assets/video/hissiyrivoj3.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+						<iframe width="560" height="315" src="./assets/video/hissiyrivoj4.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+						<iframe width="560" height="315" src="./assets/video/hissiyrivoj5.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div>
+
+					<p style="font-size: 28px; margin-top: 80px;" >Nutq, muloqot, o‘qish va yozish</p>
+
+					<div class="carousel js-flickity">
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/A.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/B.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/D.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/E.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/F.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/G.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/H.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/I.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/J.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/K.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/L.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/M.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/N.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						
+						
+					  </div>
+
+					  <p style="font-size: 28px; margin-top: 80px;" >Bilish jarayonining rivojlanishi</p>
+
+					<div class="carousel js-flickity">
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/matem1.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/matem2.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/matem3.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/matem4.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/matem5.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						
+					  </div>
+
+					  <p style="font-size: 28px; margin-top: 80px;" >Ijodiy rivojlanish</p>
+
+					<div class="carousel js-flickity" style="margin-bottom: 50px;">
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/rasm1.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/rasm2.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/rasm3.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/rasm4.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/rasm5.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						
+					  </div>
+					  <p style="font-size: 28px; margin-top: 80px;" >ERTAKLAR</p>
+
+					<div class="carousel js-flickity" style="margin-bottom: 50px;">
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/эртак.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/tajriba.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/ERTAK3.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/ERTAK4.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/ERTAK5.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						
+				</div>
+				<p style="font-size: 28px; margin-top: 80px;" >Mediatarbiya ta'limiy faoliyati uchun</p>
+				<div class="carousel js-flickity" style="margin-bottom: 50px;">
+						<div class="carousel-cell">
+							<iframe width="560" height="315" src="./assets/video/ФЕРУЗА РОЛИК.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+			</div>
+			
+			<!-- About Us End -->
+			<!-- About Company -->
+			
+			<!-- About Company END -->
+			<!-- Latest From Blog --->
+			<div class="section-full content-inner-2 bg-white" id="e-books" >
+				<div class="container">
+					<div class="section-head text-center">
+						<h2 class="title">TAQDIMOTLAR</h2>
+						<p>Foydalanish uchun taqdimotlar taqdim etamiz.</p>
+					</div>
+					<div class="blog-carousel owl-btn-center-lr owl-carousel owl-btn-3">					
+						<div class="items">
+						<div class="event-post post-grid shadow radius">
+							<div class="dlab-post-media">
+								<a href="assets/presentations/Idishlar.pptx"><img src="assets/pptimages/idishlar.png" alt=""></a>
+							</div>
+							<div class="dlab-post-info">
+								<div class="dlab-post-title">
+									<h4 class="post-title"><a href="assets/presentations/Idishlar.pptx">Idishlar</a></h4>
+								</div>
+							</div>
+						</div>
+					</div>					
+					<div class="items">
+						<div class="event-post post-grid shadow radius">
+							<div class="dlab-post-media">
+								<a href="assets/presentations/ilk qadam slayd.pptx"><img src="assets/pptimages/ilk qadam.png" alt=""></a>
+							</div>
+							<div class="dlab-post-info">
+								<div class="dlab-post-title">
+									<h4 class="post-title"><a href="assets/presentations/ilk qadam slayd.pptx">Ilk qadam</a></h4>
+								</div>
+							</div>
+						</div>
+					</div>					
+					<div class="items">
+						<div class="event-post post-grid shadow radius">
+							<div class="dlab-post-media">
+								<a href="assets/presentations/MAISHIY  JIHOZLAR.pptx"><img src="assets/pptimages/Maishiy buyumlar.png" alt=""></a>
+							</div>
+							<div class="dlab-post-info">
+								<div class="dlab-post-title">
+									<h4 class="post-title"><a href="assets/presentations/MAISHIY  JIHOZLAR.pptx">Maishiy jihozlar</a></h4>
+								</div>
+							</div>
+						</div>
+					</div>					
+					<div class="items">
+						<div class="event-post post-grid shadow radius">
+							<div class="dlab-post-media">
+								<a href="assets/presentations/mevalar.pptx"><img src="assets/pptimages/Sabavotlar.png" alt=""></a>
+							</div>
+							<div class="dlab-post-info">
+								<div class="dlab-post-title">
+									<h4 class="post-title"><a href="assets/presentations/mevalar.pptx">Sabzavotlar</a></h4>
+								</div>
+							</div>
+						</div>
+					</div>					
+					<div class="items">
+						<div class="event-post post-grid shadow radius">
+							<div class="dlab-post-media">
+								<a href="assets/presentations/tarbiyachiga yordam slayd.pptx"><img src="assets/pptimages/maktabgacha ta'lim.png" alt=""></a>
+							</div>
+							<div class="dlab-post-info">
+								<div class="dlab-post-title">
+									<h4 class="post-title"><a href="assets/presentations/tarbiyachiga yordam slayd.pptx">Tarbiyachiga yordam</a></h4>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="items">
+						<div class="event-post post-grid shadow radius">
+							<div class="dlab-post-media">
+								<a href="assets/presentations/tOZALIK_VA_SALOMATLIK.ppt"><img src="assets/pptimages/Tozalik.png" alt=""></a>
+							</div>
+							<div class="dlab-post-info">
+								<div class="dlab-post-title">
+									<h4 class="post-title"><a href="assets/presentations/tOZALIK_VA_SALOMATLIK.ppt">Tozalik va salomatlik</a></h4>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="items">
+						<div class="event-post post-grid shadow radius">
+							<div class="dlab-post-media">
+								<a href="assets/presentations/Yashil tabiat.ppt"><img src="assets/pptimages/yashil olam.png" alt=""></a>
+							</div>
+							<div class="dlab-post-info">
+								<div class="dlab-post-title">
+									<h4 class="post-title"><a href="assets/presentations/Yashil tabiat.ppt">Yashil tabiat</a></h4>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="items">
+						<div class="event-post post-grid shadow radius">
+							<div class="dlab-post-media">
+								<a href="assets/presentations/Нутқ ўстиришга оидўйинлар.ppt"><img src="assets/pptimages/Nutq o'stirish.png" alt=""></a>
+							</div>
+							<div class="dlab-post-info">
+								<div class="dlab-post-title">
+									<h4 class="post-title"><a href="assets/presentations/Нутқ ўстиришга оидўйинлар.ppt">Nutq o'stirishga oid o'yinlar</a></h4>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="items">
+						<div class="event-post post-grid shadow radius">
+							<div class="dlab-post-media">
+								<a href="assets/presentations/Соглом овкатланиш.ppt"><img src="assets/pptimages/sog'lom ovqatlanish.png" alt=""></a>
+							</div>
+							<div class="dlab-post-info">
+								<div class="dlab-post-title">
+									<h4 class="post-title"><a href="assets/presentations/Соглом овкатланиш.ppt">Sog'lom ovqatlanish</a></h4>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				</div>
+			</div>
+
+			<div class="section-full bg-gray content-inner about-carousel-ser" id="books" >
+				<div class="container">
+					<div class="section-head text-center">
+						<h2 class="title">Elektron adabiyotlar</h2>
+					</div>
+					<div class="row">			
+						<div class="col-md-6 col-lg-3 col-sm-6">
+							<div class="dlab-box courses-bx">
+								<div class="dlab-media"> 
+									<img src="assets/e-book-images/bol-ensk.png" alt="">
+								</div>
+								<div class="dlab-info">
+									<h6 class="dlab-title"><a target="_blank" href="assets/e-books/Bolalar ensiklopediyasi.pdf">Bolalar ensiklopediyasi</a></h6>
+                                    <a target="_blank" href="assets/e-books/Bolalar ensiklopediyasi.pdf">batafsil o'qish...</a>
+								</div>
+							</div>
+						</div>						
+						<div class="col-md-6 col-lg-3 col-sm-6">
+								<div class="dlab-box courses-bx">
+									<div class="dlab-media"> 
+										<img src="assets/e-book-images/bol-hik.png" alt="">
+									</div>
+									<div class="dlab-info">
+										<h6 class="dlab-title"><a href="assets/e-books/Hikoyalar bolalar uchun.docx">Hikoyalar bolalar uchun</a></h6>
+										<a href="assets/e-books/Hikoyalar bolalar uchun.docx">batafsil o'qish...</a>
+									</div>
+								</div>
+							</div>						
+							<div class="col-md-6 col-lg-3 col-sm-6">
+								<div class="dlab-box courses-bx">
+									<div class="dlab-media"> 
+										<img src="assets/e-book-images/bol-mat.png" alt="">
+									</div>
+									<div class="dlab-info">
+										<h6 class="dlab-title"><a target="_blank" href="assets/e-books/ertaklarda_matematika.pdf">Ertaklarda matematika</a></h6>
+										<a href="assets/e-books/ertaklarda_matematika.pdf">batafsil o'qish...</a>
+									</div>
+								</div>
+							</div>						
+							<div class="col-md-6 col-lg-3 col-sm-6">
+								<div class="dlab-box courses-bx">
+									<div class="dlab-media"> 
+										<img src="assets/e-book-images/bol-qosh.png" alt="">
+									</div>
+									<div class="dlab-info">
+										<h6 class="dlab-title"><a href="assets/e-books/Bolalar uchun qo'shiqlar.docx">Bolalar uchun qo'shiqlar</a></h6>
+										<a href="assets/e-books/Bolalar uchun qo'shiqlar.docx">batafsil o'qish...</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6 col-lg-3 col-sm-6">
+									<div class="dlab-box courses-bx">
+										<div class="dlab-media"> 
+											<img src="assets/e-book-images/bol-sher.png" alt="">
+										</div>
+										<div class="dlab-info">
+											<h6 class="dlab-title"><a href="assets/e-books/She'rlar bolalar uchun.docx">She'rlar bolalar uchun</a></h6>
+											<a href="assets/e-books/She'rlar bolalar uchun.docx">batafsil o'qish...</a>
+										</div>
+									</div>
+								</div>						
+							<div class="col-md-6 col-lg-3 col-sm-6">
+								<div class="dlab-box courses-bx">
+									<div class="dlab-media"> 
+										<img src="assets/e-book-images/did-oy.png" alt="">
+									</div>
+									<div class="dlab-info">
+										<h6 class="dlab-title"><a href="assets/e-books/Didaktik o'yin (kitobcha).doc">Didaktik o'yin(kitobcha)</a></h6>
+										<a href="assets/e-books/Didaktik o'yin (kitobcha).doc">batafsil o'qish...</a>
+									</div>
+								</div>
+							</div>						
+						<div class="col-md-6 col-lg-3 col-sm-6">
+							<div class="dlab-box courses-bx">
+								<div class="dlab-media"> 
+									<img src="assets/e-book-images/mil-har.png" alt="">
+								</div>
+								<div class="dlab-info">
+									<h6 class="dlab-title"><a href="assets/e-books/Milliy harakatli oyinlar. Rahumqulov K.pdf">Milliy harakatli oyinlar</a></h6>
+									<a href="assets/e-books/Milliy harakatli oyinlar. Rahumqulov K.pdf">batafsil o'qish...</a>
+								</div>
+							</div>
+						</div>
+
+											
+							<div class="col-md-6 col-lg-3 col-sm-6">
+								<div class="dlab-box courses-bx">
+									<div class="dlab-media"> 
+										<img src="assets/e-book-images/mus-oy.png" alt="">
+									</div>
+									<div class="dlab-info">
+										<h6 class="dlab-title"><a href="assets/e-books/Мусиқали дидактик уйинлар.doc">Musiqali didaktik o'yinlar</a></h6>
+										<a href="assets/e-books/Мусиқали дидактик уйинлар.doc">batafsil o'qish...</a>
+									</div>
+								</div>
+							</div>
+
+										
+						<div class="col-md-6 col-lg-3 col-sm-6">
+							<div class="dlab-box courses-bx">
+								<div class="dlab-media"> 
+									<img src="assets/e-book-images/sal-mak.png" alt="">
+								</div>
+								<div class="dlab-info">
+									<h6 class="dlab-title"><a href="front/show/siz-bilishingiz-muhim-bolgan-tushunchalar.html">Siz bilishingiz muhim bo'lgan tushunchalar</a></h6>
+									<a href="front/show/siz-bilishingiz-muhim-bolgan-tushunchalar.html">batafsil o'qish...</a>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+				</div>	
+			</div>
+		</div>
+    </div>
+
+	<div class="section-full content-inner bg-white" id="survey">
+		<div class="container">
+
+			<div class="section-head text-center">
+				<h2 class="title">So'rovnoma</h2>
+			</div>
+
+			<div class="row teacher-about">
+				<div class="col-md-12">
+					<p class="text-justify">Maktabgacha yoshdagi bolalarning intellektual va ijodiy qobiliyatlarini media texnologiyalar asosida rivojlantirish boʼyicha tajriba-sinov soʼrovnomasi </p>
+                </div>
+			</div>
+			<div class="row">
+				<h4 class="title" >1. Maktabgacha yoshdagi bolalar rivojlanishiga qoʼyiladigan
+					standartlar asosida soʼrovnoma
+				</h4>
+				<table class="table" >
+					<tr>
+						<td>№</td>
+						<td>So'rovnoma</td>
+						<td>Javoblar</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>Tarbiyalanuvchilarning media texnologiyalardan foydalanishga intilishlari qanday darajada?</td>
+						<td>
+							yuqori &VerticalLine;
+							o'rta &VerticalLine; 
+							past
+						</td>
+					</tr>
+
+					<tr>
+						<td>2</td>
+						<td>Tarbiyalanuvchilarning media texnologiyalardan foydalanishga qiziqishlari qanday darajada?</td>
+						<td>
+							yuqori &VerticalLine;
+							o'rta &VerticalLine;
+							past
+						</td>
+					</tr>
+
+					<tr>
+						<td>3</td>
+						<td>Tarbiyalanuvchilarning yoshiga nisbatan yoki kattalarga solishtirganda media texnologiyalardan <br> foydalanish qobiliyati qanday darajada?</td>
+						<td>
+							yuqori &VerticalLine;
+							o'rta &VerticalLine;
+							past
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<div class="row">
+				<h4 class="title" >	2. Maktabgacha yoshdagi bolalar rivojlanishiga qoʼyiladigan
+					Davlat talablari asosida soʼrovnoma					
+				</h4>
+				<table class="table" >
+					<tr>
+						<td>№</td>
+						<td>So'rovnoma</td>
+						<td>Javoblar</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>Bolalarning media texnologiyalardan foydalanishni oʼzlashtirish iqtidori qanday darajada?</td>
+						<td>
+							yuqori &VerticalLine;
+							o'rta &VerticalLine;<br>
+							past
+						</td>
+					</tr>
+
+					<tr>
+						<td>2</td>
+						<td>Bolalarning media texnologiyalar imkoniyatlarini ongli ravishda tushuntirishlari va mustaqil tahlil qilish darajasi qanday?</td>
+						<td>
+							yuqori &VerticalLine;
+							o'rta &VerticalLine;<br>
+							past
+						</td>
+					</tr>
+
+					<tr>
+						<td>3</td>
+						<td>Bolalar media texnologiyalarda koʼrgan hodisalarini oʼxshatish boʼyicha hatti-harakatlar qiladimi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;<br>
+							qisman kuzatilgan
+						</td>
+					</tr>
+
+					<tr>
+						<td>4</td>
+						<td>Bolalar media kontentda koʼrgan qahramonlari oʼrniga oʼzlarini koʼyib qoʼrish holatlari bormi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;<br>
+							qisman kuzatilgan
+						</td>
+					</tr>
+
+					<tr>
+						<td>5</td>
+						<td>Media kontentlar bolalarning rivojlanishi, taʼlim-tarbiyasiga taʼsiri bormi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine; <br>
+							qisman kuzatilgan
+						</td>
+					</tr>
+
+					<tr>
+						<td>6</td>
+						<td>Bolalarga taʼlim-tarbiya berish, rivojlantirishda media kontentlar samarali hisoblanadimi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine; <br>
+							qisman bor
+						</td>
+					</tr>
+
+					<tr>
+						<td></td>
+						<td><b>Ijodiy rivojlanishga oid savollar</b></td>
+						<td>
+							/////////////////
+						</td>
+					</tr>
+
+					<tr>
+						<td>7</td>
+						<td>Bolalar media kontentda koʼrganlarini badiiy tasavvur qila oladimi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine; <br>
+							qisman
+						</td>
+					</tr>
+
+					<tr>
+						<td>8</td>
+						<td>Bolalarning media kontentda koʼrganlarini badiiy jihatdan ijod qilish qobiliyati bormi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine; <br>
+							qisman bor
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<div class="row">
+				<h4 class="title" >	3. Maktabgacha yoshdagi bolalar rivojlanishiga qoʼyiladigan talablar asosida soʼrovnoma (Bilish jarayonining rivojlantirish misolida)					
+				</h4>
+				<table class="table" >
+					<tr>
+						<td>№</td>
+						<td>So'rovnoma</td>
+						<td>Javoblar</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>Bolalarning media kontentda koʼrganlarini eslab qolish va uni gapirib bera olish qobiliyati bormi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman
+						</td>
+					</tr>
+
+					<tr>
+						<td>2</td>
+						<td>Bolalarda oʼziga kerakli media kontentni mustaqil izlab topa olish qobiliyati bormi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman
+						</td>
+					</tr>
+
+					<tr>
+						<td>3</td>
+						<td>Bollar media kontentni kuzatish orqali tegishli xulosa chiqara oldimi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman
+						</td>
+					</tr>
+
+					<tr>
+						<td></td>
+						<td><b>Elementar matematik masalani bilishini aniqlash</b></td>
+						<td>
+							/////////////////
+						</td>
+					</tr>
+
+					<tr>
+						<td>4</td>
+						<td>Bolalar media kontentlarni koʼrish orqali geometrik shakllarni oʼrgana oladimi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman
+						</td>
+					</tr>
+
+					<tr>
+						<td>5</td>
+						<td>Bolalar media kontentlar orqali oddiy matematik terminologiyani va qoʼllashni tushunadimi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman
+						</td>
+					</tr>
+
+					<tr>
+						<td>6</td>
+						<td>Bolalar media kontentlarni koʼrish orqali 20 gacha boʼlgan matematik harakatlarini bajara oladmi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman
+						</td>
+					</tr>
+
+					<tr>
+						<td></td>
+						<td><b>Tadqiqiy-bilish, samarali refleksiv holat o'rganish</b></td>
+						<td>
+							/////////////////
+						</td>
+					</tr>
+
+					<tr>
+						<td>7</td>
+						<td>Bolalar media kontentlarni koʼrish orqali tabiat hodisalarini turli omillarga bogʼliqligini tushuna oladimi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman
+						</td>
+					</tr>
+
+					<tr>
+						<td>8</td>
+						<td>Bolalar media kontentlarni koʼrish orqali qurilmalarni mustaqil oʼlchay oladmi? (masalan, balandligi, uzunligi, kengligi boʼyicha)</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman
+						</td>
+					</tr>
+					<tr>
+						<td>9</td>
+						<td>Bolalar media kontentlarni koʼrish orqali tabiatdagi oʼzgarishlar sababini tushuntirib bera oladimi? (masalan, qor erishi)</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman
+						</td>
+					</tr>
+
+					<tr>
+						<td>10</td>
+						<td>Bolalar media kontentlarni koʼrish orqali insonlarning atrof olamiga taʼsirini tushuna oladimi? (masalan, ekin ekish, hosil yigʼish)</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman
+						</td>
+					</tr>
+
+					<tr>
+						<td>11</td>
+						<td>Media kontentlarni koʼrish orqali jonli va jonsiz tabiatni farqlay oladimi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman 
+						</td>
+					</tr>
+
+					<tr>
+						<td>12</td>
+						<td>Media kontentlarni koʼrish orqali shaxsiy qiziqishlari va kuzatuvlariga bogʼliq savollar bera oladimi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman 
+						</td>
+					</tr>
+
+					<tr>
+						<td>13</td>
+						<td>Media kontentlarni koʼrish orqali shaxsiy taxminlari haqida gapirib, avvalgi va hozirgi tajribani umumlashtirish va tushuntirish <br> kabi harakatlarni bajara oladimi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman 
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<div class="row">
+				<h4 class="title" >	4. Maktabgacha yoshdagi bolalarning rivojlanish sohalari
+					kompetentsiyalari boʼyicha soʼrovnoma					
+				</h4>
+				<table class="table" >
+					<tr>
+						<td>№</td>
+						<td>So'rovnoma</td>
+						<td>Javoblar</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>Media kontentlar orqali turli harakatchanlik faolligini uygʼun ravishda va maqsadli bajarishni bilib oladimi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman
+						</td>
+					</tr>
+
+					<tr>
+						<td>2</td>
+						<td>Media kontentlar orqali oʼz harakatlarini hissyot va sezgi organlari yordamida boshqara oladimi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman
+						</td>
+					</tr>
+
+					<tr>
+						<td>3</td>
+						<td>Media kontentlar orqali shaxsiy gigiena malakalarini qoʼllashni oʼrgana oladimi?	</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman
+						</td>
+					</tr>
+
+					<tr>
+						<td>4</td>
+						<td>Media kontentlar orqali xavfsiz hayotiy faolit asoslari qoidalariga rioya qilishni oʼrgana oladimi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman
+						</td>
+					</tr>
+
+					<tr>
+						<td></td>
+						<td><b>Ijtimoiy-hissiy rivojlanish sohasi kompetentsiyasiga oid savollar</b></td>
+						<td>
+							/////////////////
+						</td>
+					</tr>
+
+					<tr>
+						<td>5</td>
+						<td>Media kontentlar orqali oʼzi va boshqa insonlarning hayotiy faoliyat muhitidagi roli toʼgʼrisida tasavvurga ega boʼla oladimi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman
+						</td>
+					</tr>
+
+					<tr>
+						<td>6</td>
+						<td>Media kontentlarni koʼrish orqali oʼz hissiyotlarini boshqarib va ularni vaziyatga mos ravishda ifodalay oladmi?	</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman
+						</td>
+					</tr>
+
+					<tr>
+						<td>7</td>
+						<td>Media kontentlar orqali oʼzgalarning hissiyotlarini farqlab va ularga mos ravishda javob bera oladmi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman
+						</td>
+					</tr>
+
+					<tr>
+						<td>8</td>
+						<td>Media kontentlarni koʼrish orqali kattalar va tengdoshlar bilan vaziyatga mos ravishda muloqot qila oladimi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman
+						</td>
+					</tr>
+
+					<tr>
+						<td></td>
+						<td><b>Nutq, muloqot, oʼsish va yozish malakalari sohasi kompetentsiyalariga oid savollar</b></td>
+						<td>
+							/////////////////
+						</td>
+					</tr>
+
+					<tr>
+						<td>9</td>
+						<td>Media kontentlarni koʼrish orqali oʼz nutqida toʼgʼri talaffuz, qulay grammatik shakllari va xilma-xil gap konstruktsiyalardan foydalana oladimi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman
+						</td>
+					</tr>
+
+					<tr>
+						<td>10</td>
+						<td>Media kontentlar orqali ikkinchi tilni oʼrganishga qiziqishini namoyon qiladimi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman
+						</td>
+					</tr>
+
+					<tr>
+						<td>11</td>
+						<td>Media kontentlar orqali soʼzning lugʼaviy, boʼgʼinli va fonetik tuzilish toʼgʼrisida tasavvurga ega boʼla oladimi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman 
+						</td>
+					</tr>
+
+						<tr>
+							<td></td>
+							<td><b>Bilish jarayonining rivojlanish sohasi kompetentsiyalarga oid savollar</b></td>
+							<td>
+								/////////////////
+							</td>
+						</tr>
+
+					<tr>
+						<td>12</td>
+						<td>Media kontentlar asosida bilish olamiga faol qiziqishini namoyon etadimi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman 
+						</td>
+					</tr>
+
+					<tr>
+						<td>13</td>
+						<td>Media kontentlar orqali oʼquv va hayotiy faoliyat uchun axborotni mustaqil topib va ulardan foydalana oladimi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman 
+						</td>
+					</tr>
+
+					<tr>
+						<td>14</td>
+						<td>Media kontentlar orqali raqamlar, hisob-kitobni biladi va ularni hayotda qoʼllay oladimi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman 
+						</td>
+					</tr>
+
+					<tr>
+						<td></td>
+						<td><b>Ijodkorlik rivojlanish sohasi kompetentsiya- lariga oid savollar</b></td>
+						<td>
+							/////////////////
+						</td>
+					</tr>
+
+					<tr>
+						<td>15</td>
+						<td>Media kontentlarni koʼrish orqali sanʼat va madaniyatga qiziqish namoyon qiladimi?</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman 
+						</td>
+					</tr>
+
+					<tr>
+						<td>16</td>
+						<td>Media kontentlar orqali milliy anʼanalarni qadrlab va ularni kundalik hayotning bir qismi sifatida idrok eta oladimi?	</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman 
+						</td>
+					</tr>
+
+					<tr>
+						<td>17</td>
+						<td>Media kontentlar orqali insonning dunyoni oʼzgartirishidagi yaratuvchanlik rolini tushuna oladimi?d</td>
+						<td>
+							ha &VerticalLine;
+							yo'q &VerticalLine;
+							qisman 
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<div class="section-full content-inner bg-white" id="media">
+		<div class="container">
+
+			<div class="section-head text-center">
+				<h2 class="title">Mediatarbiya</h2>
+			</div>
+
+			<div class="row teacher-about">
+				<div class="col-md-12">
+					<p class="text-justify">“Maktabgacha taʼlim tashkilotlarida maktabgacha yoshdagi bolalarning intellektual va ijodiy kreativlik qobiliyatlarini rivojlantirishda “Mediamahsulotdan ogoh boʼling” texnologik tamoyil asosida bolalarni har hil media mahsulotlardan toʼgʼri foydalanishni targʼib qilib borish lozim. Shu tariqa maktabgacha yoshdagi bolalarning media mahsulotlardan ogohligini oshirib borish fazilatini shakllantirish maqsadga muvofiq.” </p>
+                </div>
+			</div>
+			<div class="row">
+				<div class="grid-container">
+					<div class="grid-item grid-item-1">
+						<img src="assets/sorovnoma/BLOG-18.webp" alt="">
+					</div>
+				
+					<div class="grid-item grid-item-2">
+						<img src="assets/sorovnoma/photo_2022-06-16_09-03-41.jpg" alt="">
+					</div>
+				
+					<div class="grid-item grid-item-3">
+						<img src="assets/sorovnoma/photo_2022-06-16_09-03-49.jpg" alt="">
+					</div>
+				
+					<div class="grid-item grid-item-4">
+						<img src="assets/sorovnoma/photo_2022-06-16_09-04-16.jpg" alt="">
+					</div>
+	
+					<div class="grid-item grid-item-5">
+						<img src="assets/sorovnoma/photo_2022-06-16_09-04-24.jpg" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<h6 style="margin-top: 20px;" >Havola orqali tarbiyachi hujjatlariga oid malumotlarni yuklab olishingiz mumkin  </h6>
+				
+				
+			</div>
+			<div style="margin-left: 30px;" class="row">
+				<p class="movingarrow" ><i class="fa fa-arrow-down"></i> </p>
+			</div>
+			<div class="row media-gird">
+				<a class="media-discipline" href="assets/tarbiyachi/медиатарбия.docx">Mediatarbiya</a> 
+				<a class="media-discipline" href="assets/tarbiyachi/Mashg'ulot tahlili blankasi.docx">Mashg'ulot tahlili</a> 
+				<a class="media-discipline" href="assets/tarbiyachi/Mashgulotlar_tahlili1.doc">Mashgulotlar tahlili</a> 
+				<a class="media-discipline" href="assets/tarbiyachi/Musiqa mashg'ulot ishlanma.docx">Musiqa mashg'uloti</a> 
+				<a class="media-discipline" href="assets/tarbiyachi/Nutq o`stirish mashg`ulot ishlanmasi .docx">Nutq o`stirish mashg`ulot</a> 
+				<a class="media-discipline" href="assets/tarbiyachi/намунавий конспект жадвали.docx">Namunaviy konspekt jadvali</a> 
+			</div>	
+		</div>
+	</div>
+
+	<div class="page-content bg-gray" id="contact" >
+        <!-- inner page banner -->
+        <div class="dlab-bnr-inr overlay-black-middle bg-pt" style="background-image:url(assets/images/contact.jpg); background-position: 20%;">
+            <div class="container">
+                <div class="dlab-bnr-inr-entry">
+                    <h1 class="text-white">Biz bilan bog'lanish</h1>
+                </div>
+            </div>
+        </div>
+        <!-- inner page banner END -->
+        <!-- contact area -->
+        <div class="section-full content-inner contact-style-1">
+			<div class="container">
+                <div class="row dzseth">
+					<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+						<div class="icon-bx-wraper bx-style-1 bg-white p-lr20 p-tb30 center seth radius-sm">
+							<div class="icon-lg text-primary m-b20"> <a href="javascript:void(0);" class="icon-cell"><i class="ti-location-pin"></i></a> </div>
+							<div class="icon-content">
+								<h5 class="dlab-tilte text-uppercase">Manzil</h5>
+								<p>Qori Niyoziy nomidagi O'zbekiston pedagogika ilmiy tadqiqot instituti</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+						<div class="icon-bx-wraper bx-style-1 bg-white p-lr20 p-tb30 center seth radius-sm">
+							<div class="icon-lg text-primary m-b20"> <a href="javascript:void(0);" class="icon-cell"><i class="ti-email"></i></a> </div>
+							<div class="icon-content">
+								<h5 class="dlab-tilte text-uppercase">Email</h5>
+								<p>shermanova.feruza@bk.ru</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+						<div class="icon-bx-wraper bx-style-1 bg-white p-lr20 p-tb30 center seth radius-sm">
+							<div class="icon-lg text-primary m-b20"> <a href="javascript:void(0);" class="icon-cell"><i class="ti-mobile"></i></a> </div>
+							<div class="icon-content">
+								<h5 class="dlab-tilte text-uppercase">Telefon</h5>
+								<p>+998 99 403 32 38</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+						<div class="icon-bx-wraper bx-style-1 bg-white p-lr20 p-tb30 center seth radius-sm">
+							<div class="icon-lg text-primary m-b20"> <a href="javascript:void(0);" class="icon-cell"><i class="ti-printer"></i></a> </div>
+							<div class="icon-content">
+								<h5 class="dlab-tilte text-uppercase">Faks</h5>
+								<p>+998 99 840 34 67</p>
+							</div>
+						</div>
+					</div>
+				</div>
+                <div class="row">
+                    <div class="col-lg-12 m-b30">
+                        <div class="p-a30 bg-white clearfix border-1 radius-sm">
+							<div class="dzFormMsg"></div>
+							<form method="post" class="dzForm" action="http://mediakom.uz/front/script/contact.php">
+								<input type="hidden" value="Contact" name="dzToDo" >
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <input name="dzName" type="text" required class="form-control" placeholder="Ismingiz">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="input-group"> 
+											    <input name="dzEmail" type="email" class="form-control" required  placeholder="Elektron pochtangiz" >
+                                            </div>
+                                        </div>
+                                    </div>
+									<div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <input name="dzOther[Phone]" type="text" required class="form-control" placeholder="Telegon raqamingiz">
+                                            </div>
+                                        </div>
+                                    </div>
+									<div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <input name="dzOther[Subject]" type="text" required class="form-control" placeholder="Mavzu">
+                                            </div>
+                                        </div>
+                                    </div>
+                                     <div class="col-md-12">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <textarea name="dzMessage" rows="4" class="form-control" required placeholder="Xabarni yozing..."></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button name="submit" type="submit" value="Submit" class="site-button "> <span>Yuborish</span> </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Footer -->
+<footer class="site-footer footer-center">
+    <div class="footer-top" style="background-color: #191f23 !important;" >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center m-b30">
+                    <h2 class="text-white m-b5">Bizning sahifamizga a'zo bo'ling </h2>
+                    <p class="max-w600 p-b20 m-auto">Sohadagi va ushbu tizimdagi yangiliklarni sizning elektron pochta manzilingizga yuborib yuramiz.</p>
+                    <div class="max-w500 m-auto m-t30 subscribe-form">
+                        <form class="dzSubscribe">
+                            <div class="dzSubscribeMsg"></div>
+                            <div class="input-group">
+                                <input name="dzEmail" required="required"  class="form-control" placeholder="Elektron pochta manzilingiz" type="email">
+                                <span class="input-group-btn">
+										<button name="submit" value="Submit" type="submit" class="site-button btnhover14">A'zo bo'lish</button>
+									</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer bottom part -->
+    <div class="footer-bottom text-center" style="background-color: #191f23 !important;">
+        <div class="container p-tb10">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 m-b30 logo-white">
+                  <h1> Media Bolajon </h1>
+                </div>
+            </div>
+         
+            <div class="row">
+                <div class="col-md-12 m-t20">
+                    <ul class="list-inline">
+                        <li><a href="javascript:void(0);" class="site-button-link facebook hover"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="javascript:void(0);" class="site-button-link google-plus hover"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="javascript:void(0);" class="site-button-link linkedin hover"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="javascript:void(0);" class="site-button-link instagram hover"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="javascript:void(0);" class="site-button-link twitter hover"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Footer END -->
+<button class="scroltop style2 radius" type="button"><i class="fa fa-arrow-up"></i></button>
+</div>
+<!-- JAVASCRIPT FILES ========================================= -->
+<script src="assets/js/jquery.min.js"></script><!-- JQUERY.MIN JS -->
+<script src="assets/plugins/wow/wow.js"></script><!-- WOW JS -->
+<script src="assets/plugins/bootstrap/js/popper.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="assets/plugins/bootstrap-select/bootstrap-select.min.js"></script><!-- FORM JS -->
+<script src="assets/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script><!-- FORM JS -->
+<script src="assets/plugins/magnific-popup/magnific-popup.js"></script><!-- MAGNIFIC POPUP JS -->
+<script src="assets/plugins/counter/waypoints-min.js"></script><!-- WAYPOINTS JS -->
+<script src="assets/plugins/counter/counterup.min.js"></script><!-- COUNTERUP JS -->
+<script src="assets/plugins/imagesloaded/imagesloaded.js"></script><!-- IMAGESLOADED -->
+<script src="assets/plugins/masonry/masonry-3.1.4.js"></script><!-- MASONRY -->
+<script src="assets/plugins/masonry/masonry.filter.js"></script><!-- MASONRY -->
+<script src="assets/plugins/owl-carousel/owl.carousel.js"></script><!-- OWL SLIDER -->
+<script src="assets/plugins/lightgallery/js/lightgallery-all.min.js"></script><!-- Lightgallery -->
+<script src="assets/js/custom.js"></script><!-- CUSTOM FUCTIONS  -->
+<script src="assets/js/dz.carousel.min.js"></script><!-- SORTCODE FUCTIONS  -->
+<script src="assets/plugins/countdown/jquery.countdown.js"></script><!-- COUNTDOWN FUCTIONS  -->
+<script src="assets/js/dz.ajax.js"></script><!-- CONTACT JS  -->
+<script src="assets/plugins/rangeslider/rangeslider.js" ></script><!-- Rangeslider -->
+<script src="assets/js/jquery.lazy.min.js"></script>
+<!-- REVOLUTION JS FILES -->
+<script src="assets/plugins/revolution/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="assets/plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<!-- Slider revolution 5.0 Extensions  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+<script src="assets/plugins/revolution/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="assets/plugins/revolution/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="assets/plugins/revolution/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="assets/plugins/revolution/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="assets/plugins/revolution/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="assets/plugins/revolution/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="assets/plugins/revolution/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="assets/plugins/revolution/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="assets/js/rev.slider.js"></script> 	
+<script>
+    jQuery(document).ready(function() {
+        'use strict';
+        dz_rev_slider_4();
+        $('.lazy').Lazy();
+    });	/*ready*/
+</script>
+</body>
+
+<!-- Mirrored from mediakom.uz/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Jun 2022 04:41:38 GMT -->
+</html>
